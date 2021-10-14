@@ -1,0 +1,24 @@
+.sidebar {
+  width: $sidebar-width;
+  background-color: skyblue;
+  padding: 15px;
+
+  & a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+
+  & a:hover {
+    color: darkblue;
+  }
+
+  &__menu {
+    list-style: none;
+    padding: 0;
+  }
+
+  &__menu-item {
+    padding: 3px;
+  }
+}

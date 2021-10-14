@@ -1,0 +1,32 @@
+.content-form {
+  &__input-group {
+    margin-bottom: 10px;
+  }
+
+  &__label {
+    display: block;
+  }
+
+  &__input {
+    padding: 8px;
+    border: solid 1px;
+    border-radius: 5px;
+    // outline: none;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  &__btn-group {
+    margin-top: 30px;
+  }
+
+  &__btn {
+    padding: 7px;
+    width: 150px;
+    margin-right: 7px;
+  }
+
+  &__btn:hover {
+    cursor: pointer;
+  }
+}

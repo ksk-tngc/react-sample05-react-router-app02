@@ -1,0 +1,25 @@
+.content-table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: floralwhite;
+
+  & th,
+  td {
+    border: solid 1px;
+    padding: 5px;
+  }
+
+  &__btn-cell {
+    width: 120px;
+    text-align: center;
+  }
+
+  &__btn {
+    padding: 5px 10px;
+    margin: 2px 2px;
+  }
+
+  &__btn:hover {
+    cursor: pointer;
+  }
+}

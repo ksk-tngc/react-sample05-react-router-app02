@@ -1,0 +1,9 @@
+.content-body {
+  margin-top: 15px;
+
+  &__text {
+    &--center {
+      text-align: center;
+    }
+  }
+}
